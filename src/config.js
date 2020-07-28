@@ -21,6 +21,8 @@ import {
   NoteToolGroupService,
   TrackChangeService,
   CommentsService,
+  CodeBlockService,
+  CodeBlockToolGroupService,
 } from "wax-prosemirror-services";
 
 import { WaxSelectionPlugin } from "wax-prosemirror-plugins";
@@ -44,6 +46,7 @@ export default {
         "Notes",
         "Lists",
         "Images",
+        "CodeBlock",
         "Tables",
       ],
     },
@@ -63,6 +66,8 @@ export default {
     WaxSelectionPlugin,
   ],
 
+  // Always load first CommentsService and LinkService,
+  //as it matters on how PM treats nodes and marks
   services: [
     new DisplayBlockLevelService(),
     new DisplayToolGroupService(),
@@ -84,5 +89,7 @@ export default {
     new AnnotationToolGroupService(),
     new NoteToolGroupService(),
     new ListToolGroupService(),
+    new CodeBlockService(),
+    new CodeBlockToolGroupService(),
   ],
 };
