@@ -5,19 +5,19 @@
     "runtime-main.js": "/editor-demo/static/js/runtime-main.f7cbd5c2.js",
     "runtime-main.js.map": "/editor-demo/static/js/runtime-main.f7cbd5c2.js.map",
     "static/css/2.dcf3ac17.chunk.css": "/editor-demo/static/css/2.dcf3ac17.chunk.css",
-    "static/js/2.bc8bcee8.chunk.js": "/editor-demo/static/js/2.bc8bcee8.chunk.js",
-    "static/js/2.bc8bcee8.chunk.js.map": "/editor-demo/static/js/2.bc8bcee8.chunk.js.map",
+    "static/js/2.63488f15.chunk.js": "/editor-demo/static/js/2.63488f15.chunk.js",
+    "static/js/2.63488f15.chunk.js.map": "/editor-demo/static/js/2.63488f15.chunk.js.map",
     "index.html": "/editor-demo/index.html",
-    "precache-manifest.7f94640b4663168a985aef2fb723fe15.js": "/editor-demo/precache-manifest.7f94640b4663168a985aef2fb723fe15.js",
+    "precache-manifest.dbf32fcc55a471cfd3b3df378fd01215.js": "/editor-demo/precache-manifest.dbf32fcc55a471cfd3b3df378fd01215.js",
     "service-worker.js": "/editor-demo/service-worker.js",
     "static/css/2.dcf3ac17.chunk.css.map": "/editor-demo/static/css/2.dcf3ac17.chunk.css.map",
-    "static/js/2.bc8bcee8.chunk.js.LICENSE.txt": "/editor-demo/static/js/2.bc8bcee8.chunk.js.LICENSE.txt",
+    "static/js/2.63488f15.chunk.js.LICENSE.txt": "/editor-demo/static/js/2.63488f15.chunk.js.LICENSE.txt",
     "static/media/index.css": "/editor-demo/static/media/vollkorn-latin-900italic.d9506cfd.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.f7cbd5c2.js",
     "static/css/2.dcf3ac17.chunk.css",
-    "static/js/2.bc8bcee8.chunk.js",
+    "static/js/2.63488f15.chunk.js",
     "static/js/main.d83f8073.chunk.js"
   ]
 }
