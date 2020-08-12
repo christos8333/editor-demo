@@ -1746,6 +1746,13 @@
     "@types/testing-library__dom" "*"
     pretty-format "^25.1.0"
 
+"@types/use-deep-compare-effect@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@types/use-deep-compare-effect/-/use-deep-compare-effect-1.2.0.tgz#d55d9bda6fea5ff7c93038c53052db1b3145f5d9"
+  integrity sha512-2uNqaSobMvUTGR7G72tUHDX+Kx341q25OuM0m2B6VID7eljIvYuDaFTKfmDnbvej67yEhCc35zA6dmIYriwOXA==
+  dependencies:
+    "@types/react" "*"
+
 "@types/yargs-parser@*":
   version "15.0.0"
   resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-15.0.0.tgz#cb3f9f741869e20cce330ffbeb9271590483882d"
@@ -3863,6 +3870,11 @@ depd@~1.1.2:
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
 
+dequal@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/dequal/-/dequal-1.0.1.tgz#dbbf9795ec626e9da8bd68782f4add1d23700d8b"
+  integrity sha512-Fx8jxibzkJX2aJgyfSdLhr9tlRoTnHKrRJuu2XHlAgKioN2j19/Bcbe0d4mFXYZ3+wpE2KVobUVTfDutcD17xQ==
+
 des.js@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/des.js/-/des.js-1.0.1.tgz#5382142e1bdc53f85d86d53e5f4aa7deb91e0843"
@@ -5291,6 +5303,11 @@ hex-color-regex@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
+
+highlight.js@^10.1.1:
+  version "10.1.2"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.1.2.tgz#c20db951ba1c22c055010648dfffd7b2a968e00c"
+  integrity sha512-Q39v/Mn5mfBlMff9r+zzA+gWxRsCRKwEMvYTiisLr/XUiFI/4puWt0Ojdko3R3JCNWGdOWaA5g/Yxqa23kC5AA==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -8853,6 +8870,11 @@ prosemirror-gapcursor@^1.1.3:
     prosemirror-state "^1.0.0"
     prosemirror-view "^1.0.0"
 
+prosemirror-highlightjs@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/prosemirror-highlightjs/-/prosemirror-highlightjs-0.2.0.tgz#601932dea9060f72d9e4701ce2531140d03c735c"
+  integrity sha512-2qI/M6FTSfhtshAWfUC+tiCgJzReGQGSLc6EtXtxe5lgiqFUqfsICiyna69x8GUrO30zr5JW9acsearX8/r37w==
+
 prosemirror-history@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/prosemirror-history/-/prosemirror-history-1.1.3.tgz#4f76a1e71db4ef7cdf0e13dec6d8da2aeaecd489"
@@ -10943,6 +10965,15 @@ url@^0.11.0:
     punycode "1.3.2"
     querystring "0.2.0"
 
+use-deep-compare-effect@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/use-deep-compare-effect/-/use-deep-compare-effect-1.3.1.tgz#90bdbed97e1acb8423f7bb0bf24de58590d021af"
+  integrity sha512-ejL+Al+aeDyC9Sywx56ti4PtSwkf6BH27tEptMWF2cfO41/auG0nRRsArh6Vv5bUyBe3z7IyxmgQCK5nas70hg==
+  dependencies:
+    "@babel/runtime" "^7.7.2"
+    "@types/use-deep-compare-effect" "^1.2.0"
+    dequal "^1.0.0"
+
 use@^3.1.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/use/-/use-3.1.1.tgz#d50c8cac79a19fbc20f2911f56eb973f4e10070f"
@@ -11084,10 +11115,10 @@ watchpack@^1.6.0:
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
 
-wax-prosemirror-components@^0.0.11:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/wax-prosemirror-components/-/wax-prosemirror-components-0.0.11.tgz#a659ffc602e3a044912458bafbb7f340e4eda383"
-  integrity sha512-HRoHyi0edMADT2vMDwIKen+Egah/KYBXgJ1pfX6xJUp3PzB/6Ecin5OkUOniJFJjakrEBD+6bBL+ZpmNx41J3g==
+wax-prosemirror-components@^0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/wax-prosemirror-components/-/wax-prosemirror-components-0.0.14.tgz#05801cc3ad6aaa84aa16cdb73284c44ac46e8ab0"
+  integrity sha512-ryxIHaFguPOLVrc58q0CSzmHU3HNypSyYqS/aTq6OdZvUfrYYEmUvjfMIHz9WK4H/c4SvQ9tDVF6N822KMzlNA==
   dependencies:
     "@fortawesome/fontawesome" "^1.1.2"
     "@fortawesome/free-solid-svg-icons" "^5.12.0"
@@ -11099,14 +11130,16 @@ wax-prosemirror-components@^0.0.11:
     react-dropdown "^1.6.2"
     react-transition-group "^4.3.0"
     styled-components "^4.2.0"
+    use-deep-compare-effect "^1.3.1"
     uuid "^7.0.3"
-    wax-prosemirror-core "^0.0.11"
-    wax-prosemirror-utilities "^0.0.11"
+    wax-prosemirror-core "^0.0.14"
+    wax-prosemirror-themes "^0.0.14"
+    wax-prosemirror-utilities "^0.0.14"
 
-wax-prosemirror-core@^0.0.11:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/wax-prosemirror-core/-/wax-prosemirror-core-0.0.11.tgz#b8797374770260d4e9628221d8d7964ce29a13fd"
-  integrity sha512-cgcxyJZy/wKi16A9/wzFv5T3rM+67TF/8OYdYaGdDFOfSTEkht7VjZg1c+EVnQcOuInbMcKCDEgBPPjVELUURw==
+wax-prosemirror-core@^0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/wax-prosemirror-core/-/wax-prosemirror-core-0.0.14.tgz#06c5d0321099f05d10bff3f812e8e68d6f8170d7"
+  integrity sha512-EsCJYNoXdQcuRaNHZDz7XVgWf9jJMqRf4xycYNDhTVsTTi2XwhinQXufTBP3GODiLXrdY/++FcCrcTlnboEe7A==
   dependencies:
     deepmerge "^4.2.2"
     inversify "^5.0.1"
@@ -11126,69 +11159,85 @@ wax-prosemirror-core@^0.0.11:
     reflect-metadata "^0.1.13"
     styled-components "^4.2.0"
     uuid "^7.0.3"
-    wax-prosemirror-services "^0.0.11"
-    wax-prosemirror-utilities "^0.0.11"
+    wax-prosemirror-services "^0.0.14"
+    wax-prosemirror-utilities "^0.0.14"
 
-wax-prosemirror-layouts@^0.0.11:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/wax-prosemirror-layouts/-/wax-prosemirror-layouts-0.0.11.tgz#55bb35b4edbaa6e4cde9bf20e0fc5a7fe8360bfc"
-  integrity sha512-CVGD9+ovbeqpYRxfZqKP7NVwCtJbpVlL5imRILMbBar0BelIVoCwrw2ZYhuS+zcDe0IhuZo85Rk9bX9q8q45dg==
+wax-prosemirror-layouts@^0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/wax-prosemirror-layouts/-/wax-prosemirror-layouts-0.0.14.tgz#4b5a4f282f7dd312790503dc19678aa1949774c5"
+  integrity sha512-vHu4X0haYhXJgEyeC4PMYprmp7uV1DPrGLWnnXNAjsIgFnwNKWUBNHy4Z5sSaVie6TcvE0FXWwAY+bGm2+JSwA==
   dependencies:
     react-panelgroup "^1.0.10"
     styled-components "^4.2.0"
-    wax-prosemirror-components "^0.0.11"
-    wax-prosemirror-core "^0.0.11"
-    wax-prosemirror-services "^0.0.11"
-    wax-prosemirror-themes "^0.0.11"
-    wax-prosemirror-utilities "^0.0.11"
+    wax-prosemirror-components "^0.0.14"
+    wax-prosemirror-core "^0.0.14"
+    wax-prosemirror-services "^0.0.14"
+    wax-prosemirror-themes "^0.0.14"
+    wax-prosemirror-utilities "^0.0.14"
 
-wax-prosemirror-plugins@^0.0.11:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/wax-prosemirror-plugins/-/wax-prosemirror-plugins-0.0.11.tgz#789da67589bb691b5ac44e33582ae6d83e89438e"
-  integrity sha512-9rEmS/7ydCVLrTeArHIE3HuRnDTSnjvWeXX9zwJEhSCIUZTDMuIL5CFvkrEsbfidztXnRkc/CoJjscx28G8JUg==
+wax-prosemirror-plugins@^0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/wax-prosemirror-plugins/-/wax-prosemirror-plugins-0.0.14.tgz#d341029c41856efc8924bdb7c0d253c0dfb08e96"
+  integrity sha512-Q/5qPC5S//mChImVvT8+r5MukZI20ai07OxYRANSuQzbHjNuWjm153onPnMUks+GVulMzwHpG0NsNm6hSuREAA==
   dependencies:
+    highlight.js "^10.1.1"
     lodash "^4.17.4"
+    prosemirror-highlightjs "^0.2.0"
     prosemirror-state "^1.3.2"
     prosemirror-view "^1.13.11"
-    wax-prosemirror-components "^0.0.11"
-    wax-prosemirror-core "^0.0.11"
-    wax-prosemirror-layouts "^0.0.11"
-    wax-prosemirror-utilities "^0.0.11"
+    wax-prosemirror-components "^0.0.14"
+    wax-prosemirror-core "^0.0.14"
+    wax-prosemirror-layouts "^0.0.14"
+    wax-prosemirror-utilities "^0.0.14"
 
-wax-prosemirror-schema@^0.0.11:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/wax-prosemirror-schema/-/wax-prosemirror-schema-0.0.11.tgz#925fdbd165efec95c46b388c54dbfd6523a7338a"
-  integrity sha512-RN/WURNag68V8tDj3XDRBKVPGAwSEdRIyKcUiq1FKwVTNitIh3eXZbx82eKYdApUT5YlG/6Pk1tbYehP7LjiVw==
+wax-prosemirror-schema@^0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/wax-prosemirror-schema/-/wax-prosemirror-schema-0.0.14.tgz#a8710c35f55068be383c70797538624aeb4dab02"
+  integrity sha512-SNO29bveHf7VmU1fAObMawOvvu2RZ+KRi17um5oCrwUU+ocWkQl3goiOGuPiweqs58bDljThkHl5OX4ViBu7ew==
   dependencies:
     prosemirror-schema-list "^1.1.2"
     prosemirror-tables "^1.1.0"
+    wax-prosemirror-utilities "^0.0.14"
 
-wax-prosemirror-services@^0.0.11:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/wax-prosemirror-services/-/wax-prosemirror-services-0.0.11.tgz#ef4001dea4875de3b69f8cf6ace2ed6f749b6efb"
-  integrity sha512-qXUs1peZhAvqUMowDw+x241jkbwok58TqUDojgiNt46JUxnOJx2AekYXQlEi/nujzZRByX8PXbRs8AXukpEtXQ==
+wax-prosemirror-services@^0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/wax-prosemirror-services/-/wax-prosemirror-services-0.0.14.tgz#1dbf1274b3982d3eded2fd64644a3849fb2f0193"
+  integrity sha512-30FAShcEV9s+A9tg86MnogyDCN/mIhfLgiAdX4bkSksL9dBj9/jlXsh7AKoLfBM05GNkFdYNyFVBSxPsKwsBPQ==
   dependencies:
     inversify "^5.0.1"
     inversify-inject-decorators "^3.1.0"
+    lodash "^4.17.4"
+    prosemirror-commands "^1.1.3"
+    prosemirror-history "^1.1.3"
+    prosemirror-keymap "^1.1.3"
+    prosemirror-model "^1.9.1"
+    prosemirror-schema-list "^1.1.2"
+    prosemirror-state "^1.3.2"
+    prosemirror-transform "^1.2.3"
+    prosemirror-view "^1.13.11"
     styled-components "^4.2.0"
-    wax-prosemirror-components "^0.0.11"
-    wax-prosemirror-core "^0.0.11"
-    wax-prosemirror-layouts "^0.0.11"
+    uuid "^7.0.3"
+    wax-prosemirror-components "^0.0.14"
+    wax-prosemirror-core "^0.0.14"
+    wax-prosemirror-layouts "^0.0.14"
+    wax-prosemirror-plugins "^0.0.14"
+    wax-prosemirror-schema "^0.0.14"
+    wax-prosemirror-utilities "^0.0.14"
 
-wax-prosemirror-themes@^0.0.11:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/wax-prosemirror-themes/-/wax-prosemirror-themes-0.0.11.tgz#2c8795c6d4c9632c2423b1f086fd189ab07f5081"
-  integrity sha512-g6Y4udvbE8Q04a5Qj97bsu/6IL1N2o1mwf71zD8AnaBqi7ZidFxA1B7XWjC1J/0AeUqvWyHcZBtj1z5WQZNCCw==
+wax-prosemirror-themes@^0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/wax-prosemirror-themes/-/wax-prosemirror-themes-0.0.14.tgz#61440427b15b79bb299bb35c20b35d6102f3b73c"
+  integrity sha512-Ax4iAqn1Y2LAsdrHs6EigB5uzE4jp+hgMJHQFCBYwjLE/WYTeLMmsqbRi6rL665kxWgs/lEA7wpehh71n7KSfw==
   dependencies:
     "@pubsweet/ui-toolkit" "^2.2.13"
     cokourier-prime-sans "git+https://gitlab.coko.foundation/julientaq/cokourier-sans-prime.git"
     typeface-fira-sans-condensed "^0.0.54"
     typeface-vollkorn "^0.0.54"
 
-wax-prosemirror-utilities@^0.0.11:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/wax-prosemirror-utilities/-/wax-prosemirror-utilities-0.0.11.tgz#be776496aa141578e8ee1f1e85a85b20dd0ac944"
-  integrity sha512-2LeRYcj6L+yHgS9fuPtnivQAEFpmjkENQkEvZdQHadfjpOS5TBuhbgqB26wxi6liAdgXbEITA1mk1y3rQGMllg==
+wax-prosemirror-utilities@^0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/wax-prosemirror-utilities/-/wax-prosemirror-utilities-0.0.14.tgz#7db878d63f3a719693e50770d8592f38fb2d9eee"
+  integrity sha512-eFcjOXisz1zc/k58HEbOo7jayvgOzlOjJGTAcK+iE2wGmtggJ4JwGzCopv2bmq3xp1YzqnvujQSiWp5l9wsa+A==
   dependencies:
     prosemirror-commands "^1.1.3"
     prosemirror-utils "^0.9.6"
